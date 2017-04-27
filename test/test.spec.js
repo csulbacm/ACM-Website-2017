@@ -85,6 +85,10 @@ describe("Users factory", function(){
 		it('should return undefined if the user cannot be found', function(){
 			expect(Users.findById('ABC')).not.toBeDefined();
 		})
+	});
+
+	it('Intentional fail', function(){
+		expect().expect(4);
 	})
 
 });
