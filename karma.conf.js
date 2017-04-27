@@ -60,27 +60,15 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-   browsers: ['PhantomJS', 'PhantomJS_custom'],
+   browsers: ['ChromeTravis'],
    // browsers: ['Chrome'],
 
     // config phantomjS for no broswer
     customLaunchers: {
-        'PhantomJS_custom': {
-            base: 'PhantomJS',
-            options: {
-                windowName: 'my-window',
-                settings: {
-                    webSecurityEnabled : false
-                },
-                flags: ['--load-images=true'],
-                debug: true
-            }
+        ChromeTravis: {
+            base: 'Chrome',
+            flags: ['--no-sandbox']
         }
-    },
-
-    phantonjsLauncher: {
-      // Have phantomjs exit if a ResourceError is encountered (useful if karma exits without killing phantom) 
-        exitOnResourceError: true
     },
 
 
