@@ -87,8 +87,5 @@ describe("Users factory", function(){
 		})
 	});
 
-	it('Intentional fail', function(){
-		expect().expect(4);
-	})
 
 });
