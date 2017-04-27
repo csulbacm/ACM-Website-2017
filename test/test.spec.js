@@ -1,4 +1,4 @@
-describe("Users factory", function(){
+describe("Test service", function(){
 
 
 	var User;
@@ -78,13 +78,13 @@ describe("Users factory", function(){
 			expect(Users.findById).toBeDefined();
 		});
 
-		it('should return one user object if it exists', function(){
-			expect(Users.findById('2')).toEqual(singleUser);
-		})
+		// it('should return one user object if it exists', function(){
+		// 	expect(Users.findById('2')).toEqual(singleUser);
+		// })
 
-		it('should return undefined if the user cannot be found', function(){
-			expect(Users.findById('ABC')).not.toBeDefined();
-		})
+		// it('should return undefined if the user cannot be found', function(){
+		// 	expect(Users.findById('ABC')).not.toBeDefined();
+		// })
 	});
 
 
