@@ -40,7 +40,6 @@ acm_mod.service('Users', [function(){
 	};
 
 	Users.findById = function(id){
-		console.log(userList.find);
 		return userList.find(function(user){
 			return user.id === id;
 		});
