@@ -42,7 +42,7 @@ describe("Test service", function(){
 	  };
 
 	// Before each test load our api.users module
-	beforeEach(angular.mock.module('acm-website'));
+	beforeEach(angular.mock.module('acm-app'));
 
 	// Before each test set our injected Users factory (_Users_)
 	// to our local Users variable
