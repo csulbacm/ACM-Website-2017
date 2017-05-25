@@ -1,3 +1,7 @@
+branches:
+ only:
+ 	- Test
+
 sudo: required
 dist: trusty
 addons:
@@ -23,3 +27,6 @@ before_script:
 
 script:
  grunt test # run karma and jamine testing
+
+notifications:
+ email: false
