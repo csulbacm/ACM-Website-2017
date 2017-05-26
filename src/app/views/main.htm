@@ -28,16 +28,16 @@
                         <a href="#contact">BOARD</a>
                     </li>
                 </ul> -->
-                <div style="width: 30%; display: inline;">
-                	<a ng-repeat="(key, value) in MAIN.tab1">
+                <div class="menu-list" style="width: 30%; display: inline;">
+                	<a ng-repeat="(key, value) in MAIN.tab1" ui-sref="{{value.url}}">
                 		{{value.name}}
                 	</a>
             	</div>
-            	<div style="width:30%; display: inline;">
-            		<a href="" ui-sref="MAIN.home.url">{{MAIN.home.name}}</a>
+            	<div class="menu-list" style="width:30%; display: inline;">
+            		<a href="" ui-sref="{{MAIN.home.url}}">{{MAIN.home.name}}</a>
             	</div>
-            	<div style="width: 30%; display: inline;">
-                	<a ng-repeat="(key, value) in MAIN.tab2">
+            	<div class="menu-list" style="width: 30%; display: inline;">
+                	<a ng-repeat="(key, value) in MAIN.tab2" ui-sref="{{value.url}}">
                 		{{value.name}}
                 	</a>
             	</div>

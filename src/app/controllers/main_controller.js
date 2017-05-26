@@ -3,11 +3,11 @@ acm_app.controller("main_controller", function($scope){
 	this.tab1 = {
 		EVENT: {
 			name: "Event",
-			url: ""
+			url: "event"
 		},
 		ABOUT: {
 			name: "About",
-			url: ""
+			url: "about"
 		}
 	};
 
@@ -20,11 +20,11 @@ acm_app.controller("main_controller", function($scope){
 	this.tab2 = {
 		CONTACT: {
 			name: "Contact",
-			url: ""
+			url: "Contact"
 		},
 		BOARD: {
 			name: "Board",
-			url: ""
+			url: "board"
 		}
 	};
 });

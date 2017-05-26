@@ -14,6 +14,34 @@ acm_app.config(['$stateProvider', '$urlRouterProvider', '$compileProvider', func
 			controllerAs: "HOME"		
 		})
 
+		.state("event", {
+			url:"/event",
+			templateUrl: "app/views/events.html",
+			controller: "",
+			controllerAs: ""		
+		})
+
+		.state("about", {
+			url:"/about",
+			templateUrl: "app/views/about.html",
+			controller: "",
+			controllerAs: ""		
+		})
+
+		.state("contact", {
+			url:"/contact",
+			templateUrl: "app/views/contact.html",
+			controller: "",
+			controllerAs: ""		
+		})
+
+		.state("board", {
+			url:"/board",
+			templateUrl: "app/views/board.html",
+			controller: "",
+			controllerAs: ""		
+		})
+
 }]);
 
 

@@ -1,0 +1,12 @@
+.menu-list{
+	border-color: black;
+}
+
+.menu-list > a{
+	text-decoration: none;
+	height: 10px;
+}
+
+.menu-list > a:hover{
+	text-decoration: none;
+}
