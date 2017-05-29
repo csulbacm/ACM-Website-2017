@@ -20,7 +20,7 @@ acm_app.controller("main_controller", function($scope){
 	this.tab2 = {
 		CONTACT: {
 			name: "Contact",
-			url: "Contact"
+			url: "contact"
 		},
 		BOARD: {
 			name: "Board",
