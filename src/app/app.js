@@ -24,8 +24,8 @@ acm_app.config(['$stateProvider', '$urlRouterProvider', '$compileProvider', func
 		.state("about", {
 			url:"/about",
 			templateUrl: "app/views/about.html",
-			controller: "",
-			controllerAs: ""		
+			controller: "about_controller",
+			controllerAs: "ABOUT"		
 		})
 
 		.state("contact", {
