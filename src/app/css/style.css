@@ -81,3 +81,13 @@ img{
 	position: fixed;
 	text-align: center;
 }
+
+/**	About **/
+#about-content{
+	padding: 20px;
+}
+
+#about-content p{
+	margin-left: 10px;
+	
+}
