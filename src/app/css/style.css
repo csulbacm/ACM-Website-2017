@@ -75,7 +75,8 @@ img{
 #main-navbar {
 	background-color: #F2F2F2;
 	width: 100vw;
-	height: 10vh;
+	/*height: 5vh;*/
+	padding: 30px;
 	top: 0;
 	position: fixed;
 	text-align: center;

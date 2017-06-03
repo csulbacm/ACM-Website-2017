@@ -3,30 +3,30 @@
 <div id="main-page" ng-controller="main_controller as MAIN">
 
 	<!-- Nav Bar -->
-	<div id="main-navbar">
+	<div id="main-navbar" >
 		<div class="row">
 			<!-- Left Menu Bar -->
-			<div class="menu-list  col-md-5" >
-				<a class="col-md-6" ng-repeat="(key, value) in MAIN.tab1" ui-sref="{{value.url}}" >
+			<div class="menu-list  col-md-5 col-sm-5 col-lg-5" >
+				<a class="col-md-6 col-sm-6 col-lg-6" ng-repeat="(key, value) in MAIN.tab1" ui-sref="{{value.url}}" >
 					{{value.name}}
 				</a>
 			</div> <!-- Left Menu Bar -->
 
 			<!-- Home -->
-			<div class="menu-list col-md-1" >
+			<div class="menu-list col-md-2 col-sm-2 col-lg-2" >
 				<a ui-sref="{{MAIN.home.url}}">{{MAIN.home.name}}</a>
 			</div><!-- Home -->
 
 			<!-- Right Menu Bar -->
-			<div class="menu-list  col-md-5" >
-				<a class="col-md-6" ng-repeat="(key, value) in MAIN.tab2" ui-sref="{{value.url}}">
+			<div class="menu-list  col-md-5 col-sm-5 col-lg-5" >
+				<a class="col-md-6 col-sm-6 col-lg-6" ng-repeat="(key, value) in MAIN.tab2" ui-sref="{{value.url}}">
 					{{value.name}}
 				</a>
 			</div> <!-- Right Menu Bar -->
 		</div>
 	</div> <!-- Nav Bar -->
 
-	<div style="margin-top: 10vh;  background-color: red;">
+	<div style="margin-top: 100px;  background-color: red;">
 		<ui-view></ui-view>
 	</div>
 </div>	
