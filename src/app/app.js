@@ -38,8 +38,8 @@ acm_app.config(['$stateProvider', '$urlRouterProvider', '$compileProvider', func
 		.state("board", {
 			url:"/board",
 			templateUrl: "app/views/board.html",
-			controller: "",
-			controllerAs: ""		
+			controller: "board_controller",
+			controllerAs: "BOARD"		
 		})
 
 }]);

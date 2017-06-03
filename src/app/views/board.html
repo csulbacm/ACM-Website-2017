@@ -1,1 +1,16 @@
-board
+<div style="height: 90vh; background: red;">
+	
+
+	<div>
+		<a href="" ng-repeat="boards in BOARD.config" style="margin: 20px;" ng-click="BOARD.changeBoard($index)">
+		{{boards.year}}
+		</a>
+	</div>
+	<div>
+		<img src="{{BOARD.active.photo}}" >
+	</div>
+	<div>
+		{{BOARD.active}}
+	</div>
+
+</div>
