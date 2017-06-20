@@ -38,11 +38,11 @@ const config = {
 						name: 'Aleks Kivuls',
 						email: 'chair@csulb.acm.org'
 					},
-					'Vice President':{
+					'Vice President (1)':{
 						name: "Cherie Woo",
 						email: 'vicechair@csulb.acm.org'
 					},
-					'Vice President':{
+					'Vice President (2)':{
 						name: 'Victoria Hong',
 						email: 'vicechair@csulb.acm.org'
 					},

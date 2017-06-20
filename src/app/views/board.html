@@ -1,16 +1,40 @@
 <div style="height: 90vh; background: red;">
 	
-
 	<div>
 		<a href="" ng-repeat="boards in BOARD.config" style="margin: 20px;" ng-click="BOARD.changeBoard($index)">
 		{{boards.year}}
 		</a>
 	</div>
-	<div>
+	<div style="text-align: center;">
 		<img src="{{BOARD.active.photo}}" >
 	</div>
 	<div>
-		{{BOARD.active}}
+		<!-- {{BOARD.active}} -->
+		<div id="officers" >
+			<div id="officers-core" class="row" >
+				<!-- {{BOARD.active.officers.core}} -->
+				<!-- <div class="col-md-6 col-sm-6 col-lg-6 col-xl-6" ng-repeat="officer in BOARD.active.officers.core" style="height: 50px; width: 50px; background: yellow;">
+					{{officer.name}}
+				</div> -->
+				<div class="col-md-3 col-sm-6 col-xs-6 col-lg-3 col-xl-2" style="background: blue;" ng-repeat="(position,officer) in BOARD.active.officers.core">
+					<div class="portrait">
+						<div style="height:20%; text-align: center;">{{position}}</div>
+						<div style="height:60%;">
+						</div>
+						<div style="height:20%; text-align: center;">
+							{{officer.name}}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="officers-others" style="border-top:1px solid #aaa; padding-top: 20px; margin-top: 20px;">
+				<!-- {{BOARD.active.officers.others}} -->
+				<div ng-repeat="officer in BOARD.active.officers.others">
+					{{officer}}
+				</div>
+
+			</div>
+		</div>
 	</div>
 
 </div>
