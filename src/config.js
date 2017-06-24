@@ -21,10 +21,39 @@ const config = {
 
 	BOARD: [
 		{
-			year: '2010-2011',
+			year: '2015-2016',
 			active: false,
 			photo: "",
-			officers: {}
+			officers: {
+				core: {
+					President: {
+						name: 'Michael Botsko',
+						email:'chair@csulb.acm.org'
+					},
+					'Vice President': {
+						name: 'Aleks Kivuls',
+						email: 'vicechair@csulb.acm.org'
+					},
+					Treasurer: {
+						name: "Pongsathorn (Rich) Cherngchaosil",
+						email: "treasurer@csulb.acm.org"
+					},
+					Secretary: {
+						name: "Pongsakorn (Leaf) Cherngchaosil",
+						email: "secretary@csulb.acm.org"
+					},
+					"AESB Representitive": {
+						name: "Jake Schmitz",
+						email: "events@csulb.acm.org"
+					}
+				},
+				others:{
+					"Office Technician": {
+						name: "Daryl James Gorubao Blancaflor",
+						email: "tech@csulb.acm.org"
+					}
+				}
+			}
 		},
 
 		{
