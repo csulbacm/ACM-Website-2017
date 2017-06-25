@@ -101,16 +101,34 @@ img{
   text-align: center;
 }
 .portrait{
-  height: 200px;
-  width: 200px;
+  height: 500px;
+  width: 500px;
   /*border-radius: 10%;*/
   margin: auto;
-
 }
 
-.portrait img{
+.portrait-img
+{
+  height: 400px;
+  width: 270px;
+  overflow: hidden;
+  margin: 0 auto;
+  /*
+  border: black solid 2px;
+  background-color: grey;*/
+}
+
+.portrait-img img{
   height: 100%;
   width: auto;
   display: block;
   margin: auto;
+}
+
+#board-cover
+{
+  text-align: center; 
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

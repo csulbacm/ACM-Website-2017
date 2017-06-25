@@ -28,7 +28,8 @@ const config = {
 				core: {
 					President: {
 						name: 'Michael Botsko',
-						email:'chair@csulb.acm.org'
+						email:'chair@csulb.acm.org',
+						img: '/img/board/2016-2017/aleks_kivuls.JPG'
 					},
 					'Vice President': {
 						name: 'Aleks Kivuls',
@@ -60,16 +61,18 @@ const config = {
 			
 			year: '2016-2017',
 			active: true,
-			photo: "/img/board/2016-2017/boards.JPG", 
+			photo: "../img/board/2016-2017/boards.JPG", 
 			officers: {
 				core: {
 					President: {
 						name: 'Aleks Kivuls',
-						email: 'chair@csulb.acm.org'
+						email: 'chair@csulb.acm.org',
+						img: '/img/board/2016-2017/aleks_kivuls.JPG'
 					},
 					'Vice President (1)':{
 						name: "Cherie Woo",
-						email: 'vicechair@csulb.acm.org'
+						email: 'vicechair@csulb.acm.org',
+						img: '/img/board/2016-2017/cherie_woo.JPG'
 					},
 					'Vice President (2)':{
 						name: 'Victoria Hong',
@@ -77,11 +80,18 @@ const config = {
 					},
 					Treasurer:{
 						name: 'Cesar Montelongo',
-						email: 'treasurer@csulb.acm.org'
+						email: 'treasurer@csulb.acm.org',
+						img: '/img/board/2016-2017/cesar_montelongo.JPG'
 					},
 					Secretary:{
 						name: 'Phuong Huynh',
-						email: 'secretary@csulb.acm.org'
+						email: 'secretary@csulb.acm.org',
+						img: '/img/board/2016-2017/phuong_hyunh.JPG'
+					},
+					'AESB Representative':{
+						name: 'Anhkhoi Vu',
+						email: 'aesbrep@csulb.acm.org',
+						img: '/img/board/2016-2017/anhkhoi_vu.JPG'
 					},
 					'Event Coordinator': {
 						name: 'Wesley Huang',

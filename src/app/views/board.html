@@ -1,26 +1,28 @@
 <div style="height: 90vh; ">
 	
-	<div>
-		<a href="" ng-repeat="boards in BOARD.config" style="margin: 20px;" ng-click="BOARD.changeBoard($index)">
-		{{boards.year}}
-		</a>
+	<div id="board-cover" style="background-image: linear-gradient(rgba(94, 96, 48, 0.79), rgba(11, 12, 13, 0.53)), url({{BOARD.active.photo}});">
+		<div>
+			<a href="" ng-repeat="boards in BOARD.config" style="margin: 20px; " ng-click="BOARD.changeBoard($index)">
+			{{boards.year}}
+			</a>
+		</div>
 	</div>
-	<div style="text-align: center;">
-		<img src="{{BOARD.active.photo}}" >
-	</div>
+
 	<div>
 		<!-- {{BOARD.active}} -->
 		<div id="officers" >
 			<div id="officers-core" class="row" >
 				<!-- Core Office -->
-				<div class="col-md-3 col-sm-6 col-xs-6 col-lg-3 col-xl-2" style=" margin-bottom: 20px;" ng-repeat="(position,officer) in BOARD.active.officers.core">
+				<div class="col-md-4 col-sm-6 col-xs-6 col-lg-4 col-xl-4" style=" margin-bottom: 20px;" ng-repeat="(position,officer) in BOARD.active.officers.core">
 					<div class="portrait">
-						<div style="height:20%; text-align: center;">
+						<div style="height:10%; text-align: center;">
 							<label>{{position}}</label>
 							<div style="font-size: 10px;">{{officer.email}}</div>
 						</div>
-						<div style="height:70%;  text-align: center;">
-							<img src="{{BOARD.personHolder}}">
+						<div style="height:80%;">
+							<div class="portrait-img">
+								<img  src="{{BOARD.getImg(officer.img)}}">
+							</div>
 						</div>
 						<div style="height:15%; text-align: center;">
 							{{officer.name}}
