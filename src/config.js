@@ -21,6 +21,277 @@ const config = {
 
 	BOARD: [
 		{
+			year: "2010-2011",
+			active: false,
+			photo: '/img/board/2010-2011/photo.jpg',
+			officers: {
+				cores: {
+					President: {
+						name: "Edgar Ortiz",
+						email: "chair@csulb.acm.org"
+					},
+					"Vice President": {
+						name: "Joshua Liong",
+						email: "vicechair@csulb.acm.org"
+					},
+					Treasurer: {
+						name: "Andrew Meredith",
+						email: "treasurer@csulb.acm.org"
+					},
+					Secretary: {
+						name: "Richard Wang",
+						email: "secretary@csulb.acm.org"
+					}
+				},
+				others: {
+					"AESB Representative": {
+						name: "Paul Dulac",
+						email: "aesbrep@csulb.acm.org"
+					},
+					Librarian: {
+						name: "Ariana Aguirre",
+						email: "librarian@csulb.acm.org"
+					},
+					"Publicity and Recruitment Chair": {
+						name: "Salvador Llamas",
+						email: "publicity@csulb.acm.org"
+					},
+					Vendor: {
+						name: "Chansophiak Kruoch",
+						email: "vendor@csulb.acm.org"
+					},
+					"Company Liason": {
+						name: "Lynn Cherngchaosil",
+						email: "liason@csulb.acm.org"
+					}, 
+					Historian: {
+						name: "Matt Sguerri",
+						email: "historian@csulb.acm.org"
+					},
+					"Membership Chair": {
+						name: "Donald Herman",
+						email: "membership@csulb.acm.org"
+					},
+					"Event Coordinator": {
+						name: "Johan Ochoa",
+						email: "events@csulb.acm.org"
+					},
+					"Fundraising Chair": {
+						name: "Juan Valie",
+						email: "fundraising@csulb.acm.org"
+					},
+					Webmaster: {
+						name: "Alex Chavez",
+						email: "webmaster@csulb.acm.org"
+					}, 
+					"Office Technician": {
+						name: "Frank Lima",
+						email: "tech@csulb.acm.org"
+					}
+				}
+			}
+		},
+		{
+			year: "2011-2012",
+			active: false,
+			photo: '/img/board/2011-2012/photo.jpg',
+			officers: {
+				cores:{
+					President: {
+						name: "Nathan Pickrell",
+						email: "chair@csulb.acm.org"
+					},
+					"Vice President": {
+						name: "Frank Lima",
+						email: "vicechair@csulb.acm.org"
+					},
+					"Treasurer": {
+						name: "Andrew Meredith",
+						email: "treasurer@csulb.acm.org"
+					},
+					Secretary: {
+						name: "David Nuon",
+						email: "secretary@csulb.acm.org"
+					}
+				},
+				others: {
+					"AESB Representative": {
+						name: "Diana Ignacio",
+						email: "aesbrep@csulb.acm.org"
+					},
+					Librarian: {
+						name: "Anthony Gialcalone",
+						email: "librarian@csulb.acm.org"
+					},
+					"Publicity and Recruitment Chair": {
+						name: "Salvador Llamas",
+						email: "publicity@csulb.acm.org"
+					}, 
+					"Market Manager": {
+						name: "James Coolidge",
+						email: "vendor@csulb.acm.org"
+					},
+					"Historian": {
+						name: "Orion Sakorn",
+						email: "historian@csulb.acm.org"
+					}, 
+					"Membership Chair": {
+						name: "Donald Herman",
+						email: "membership@csulb.acm.org"
+					}, 
+					"Web Master": {
+						name: "Ian Goegebuer",
+						email: "webmaster@csulb.acm.org"
+					}, 
+					"Office Techinician": {
+						name: "Shane Satterfield",
+						email: "tech@csulb.acm.org"
+					}
+				}
+			}
+		},
+		{
+			year: '2012-2013',
+			active: false,
+			photo: '/img/board/2012-2013/photo.jpg',
+			officers:{
+				cores:{
+					President: {
+						name: "David Nuon",
+						email: "chair@csulb.acm.org"
+					},
+					"Vice President": {
+						name: "Ian Goegbuer",
+						email: "vicechair@csulb.acm.org"
+					},
+					"Treasurer": {
+						name: "Christopher Gomez",
+						email: "treasurer@csulb.acm.org"
+					},
+					"Secretary": {
+						name: "Shane Satterfield",
+						email: "secretary@csulb.acm.org"
+					},
+					"Events Coordinator": {
+						name: "Diana Ignacio",
+						email: "events@csulb.acm.org"
+					}, 
+					"AESB Representative": {
+						name: "Victoria Hatfield",
+						email: "aesb@csulb.acm.org"
+					}
+				},
+				others:{
+					"Librarian": {
+						name: "Anthony Gialcalone",
+						email: "librarian@csulb.acm.org"
+					},
+					"Publicity Chair": {
+						name: "Leo Tronolone",
+						email: "publicity@csulb.acm.org"
+					},
+					"Market Manager": {
+						name: "James Coolidge",
+						email: "vendor@csulb.acm.org"
+					},
+					"Historian" : {
+						name: "Orion Sakorn",
+						email: "historian@csulb.acm.org"
+					},
+					"Office Technician": {
+						name: "Johnny Patterson",
+						email: "tech@csulb.acm.org"
+					}
+				}
+			}
+		},
+		{
+			year: '2013-2014',
+			active: false,
+			photo: '',
+			officers: {
+				core:{
+					President: {
+						name: 'Jonny Patterson',
+						email: 'chair@csulb.acm.org'
+					},
+					'Vice President': {
+						name: 'David Gaskins',
+						email: 'vicechair@csulb.acm.org'
+					},
+					'Treasurer': {
+						name: 'Christopher Gomez',
+						email: 'treasurer@csulb.acm.org'
+					},
+					'Secretary': {
+						name: 'David Martel',
+						email: 'secretary@csulb.acm.org'
+					},
+					'Events Coordinator': {
+						name: 'Diana Ignacio',
+						email: 'events@csulb.acm.org'
+					},
+					'AESB Representative': {
+						name: 'Jimmy Sam',
+						email: 'aesbrep@csulb.acm.org'
+					}
+				},
+				others:{}
+			}
+		},
+		{
+			year: '2014-2015',
+			active: false,
+			photo: "",
+			officers: {
+				core: {
+					President: {
+						name: 'David Martel',
+						email: 'chair@csulb.acm.org'
+					},
+					'Vice President': {
+						name: 'Shane Satterfield',
+						email: 'vicechair@csulb.acm.org'
+					},
+					'Treasurer': {
+						name: 'Tyler Goodman',
+						email: 'treasurer@csulb.acm.org'
+					},
+					'Secretary': {
+						name: 'Edgar Cobas',
+						email: 'secretary@csulb.acm.org'
+					},
+					'AESB Representative': {
+						name: 'Adil Mahmood',
+						email: 'aesbrep@csulb.acm.org'
+					}
+				},
+				others:
+				{
+					'Office Technician': {
+						name: 'Daryl James Gorubao Blancaflor',
+						email: 'tech@csulb.acm.org'
+					},
+					'Historian': {
+						name: 'Rich Cherngchaosil',
+						email: 'historian@csulb.acm.org'
+					},
+					'Librarian': {
+						name: "Michael Botsko",
+						email: 'librarian@csulb.acm.org'
+					},
+					'Publicity Chair': {
+						name: 'Greg Violan',
+						email: 'publicity@csulb.acm.org'
+					},
+					'Web Master':{
+						name: 'Kumin In',
+						email: 'webmaster@csulb.acm.org'
+					}
+				}
+			}
+		},
+		{
 			year: '2015-2016',
 			active: false,
 			photo: "",
@@ -28,16 +299,17 @@ const config = {
 				core: {
 					President: {
 						name: 'Michael Botsko',
-						email:'chair@csulb.acm.org',
-						img: '/img/board/2016-2017/aleks_kivuls.JPG'
+						email:'chair@csulb.acm.org'
 					},
 					'Vice President': {
 						name: 'Aleks Kivuls',
-						email: 'vicechair@csulb.acm.org'
+						email: 'vicechair@csulb.acm.org',
+						img: '/img/board/2016-2017/aleks_kivuls.JPG'
 					},
 					Treasurer: {
 						name: "Pongsathorn (Rich) Cherngchaosil",
-						email: "treasurer@csulb.acm.org"
+						email: "treasurer@csulb.acm.org",
+						img: "/img/board/2015-2016/rich_cherng.jpg"
 					},
 					Secretary: {
 						name: "Pongsakorn (Leaf) Cherngchaosil",
@@ -99,7 +371,8 @@ const config = {
 					},
 					'Beachhacks Director': {
 						name: 'Michael Botsko',
-						email: ''
+						email: '',
+						img: '/img/board/2016-2017/michael_botsko.jpg'
 					}
 				},
 				others: {
@@ -108,6 +381,11 @@ const config = {
 					},
 					'Office Tech': {
 						name: 'Jonathan Nuno',
+					},
+					'Web Master': {
+						name: 'Rich Cherngchaosil',
+						email: 'webmaster@csulb.acm.org',
+						img:'/img/board/2015-2016/rich_cherng.jpg'
 					},
 					'Industry Chair': {
 						name: 'Varderes Barsegyan'

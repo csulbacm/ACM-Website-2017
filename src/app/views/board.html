@@ -2,7 +2,7 @@
 	
 	<div id="board-cover" style="background-image: linear-gradient(rgba(94, 96, 48, 0.79), rgba(11, 12, 13, 0.53)), url({{BOARD.active.photo}});">
 		<div>
-			<a href="" ng-repeat="boards in BOARD.config" style="margin: 20px; " ng-click="BOARD.changeBoard($index)">
+			<a href="" ng-repeat="boards in BOARD.config" style="margin: 20px; color:white;" ng-click="BOARD.changeBoard($index)">
 			{{boards.year}}
 			</a>
 		</div>
@@ -16,31 +16,34 @@
 				<div class="col-md-4 col-sm-6 col-xs-6 col-lg-4 col-xl-4" style=" margin-bottom: 20px;" ng-repeat="(position,officer) in BOARD.active.officers.core">
 					<div class="portrait">
 						<div style="height:10%; text-align: center;">
-							<label>{{position}}</label>
-							<div style="font-size: 10px;">{{officer.email}}</div>
+							<label style="font-size: 20px;">{{position}}</label>
+							<div style="font-size: 12px; ">{{officer.email}}</div>
 						</div>
 						<div style="height:80%;">
 							<div class="portrait-img">
 								<img  src="{{BOARD.getImg(officer.img)}}">
 							</div>
 						</div>
-						<div style="height:15%; text-align: center;">
+						<div style="height:15%; text-align: center; font-size: 20px;">
 							{{officer.name}}
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<!-- Minor Officer -->
 			<div id="officers-others" class="row" style="border-top:1px solid #aaa; padding-top: 20px; margin-top: 20px;">
 
-				<div class="col-md-3 col-sm-6 col-xs-6 col-lg-3 col-xl-2" style="margin-bottom: 20px;" ng-repeat="(position, officer) in BOARD.active.officers.others">
+				<div class="col-md-4 col-sm-6 col-xs-6 col-lg-4 col-xl-4" style=" margin-bottom: 20px;" ng-repeat="(position, officer) in BOARD.active.officers.others">
 					<div class="portrait">
-						<div style="height: 20%; text-align: center;">
+						<div style="height: 10%; text-align: center;">
 							<label>{{position}}</label>
 							<div style="font-size: 10px;">{{officer.email}}</div>
 						</div>
-						<div style="height:70%; text-align: center;">
-							<img src="{{BOARD.personHolder}}">
+						<div style="height:70%;">
+							<div class="portrait-img">
+								<img src="{{BOARD.getImg(officer.img)}}">
+							</div>
 						</div>
 						<div style="height: 15%; text-align: center;">
 							{{officer.name}}
