@@ -132,3 +132,9 @@ img{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.board-active
+{
+  /*border-style: solid;*/
+  border-bottom: solid #F8CD53;
+}

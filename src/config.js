@@ -25,7 +25,7 @@ const config = {
 			active: false,
 			photo: '/img/board/2010-2011/photo.jpg',
 			officers: {
-				cores: {
+				core: {
 					President: {
 						name: "Edgar Ortiz",
 						email: "chair@csulb.acm.org"
@@ -96,7 +96,7 @@ const config = {
 			active: false,
 			photo: '/img/board/2011-2012/photo.jpg',
 			officers: {
-				cores:{
+				core:{
 					President: {
 						name: "Nathan Pickrell",
 						email: "chair@csulb.acm.org"
@@ -155,7 +155,7 @@ const config = {
 			active: false,
 			photo: '/img/board/2012-2013/photo.jpg',
 			officers:{
-				cores:{
+				core:{
 					President: {
 						name: "David Nuon",
 						email: "chair@csulb.acm.org"

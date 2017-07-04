@@ -1,7 +1,10 @@
-acm_app.controller("board_controller", function($scope, config){
-	this.config = config.BOARD;
+acm_app.controller("about-board_controller", function($scope, config){
+	
+	this.about = config.ABOUT;
 
-	this.active = this.config[this.config.length - 1]
+	this.board = config.BOARD;
+
+	this.active = this.board[this.board.length - 1]
 
 	this.personHolder = "../img/board/person-placeholder.jpg"
 	
@@ -18,4 +21,5 @@ acm_app.controller("board_controller", function($scope, config){
 			return _imgUrl;
 		}
 	}
+	
 });

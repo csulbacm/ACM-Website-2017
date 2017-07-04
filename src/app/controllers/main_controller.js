@@ -6,8 +6,8 @@ acm_app.controller("main_controller", function($scope){
 			url: "event"
 		},
 		ABOUT: {
-			name: "About",
-			url: "about"
+			name: "About & Board",
+			url: "about-board"
 		}
 	};
 

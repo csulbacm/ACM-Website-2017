@@ -21,11 +21,11 @@ acm_app.config(['$stateProvider', '$urlRouterProvider', '$compileProvider', func
 			controllerAs: ""		
 		})
 
-		.state("about", {
-			url:"/about",
-			templateUrl: "app/views/about.html",
-			controller: "about_controller",
-			controllerAs: "ABOUT"		
+		.state("about-board", {
+			url:"/about-board",
+			templateUrl: "app/views/about-board.html",
+			controller: "about-board_controller",
+			controllerAs: "AB"		
 		})
 
 		.state("contact", {
