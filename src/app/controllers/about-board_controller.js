@@ -10,7 +10,7 @@ acm_app.controller("about-board_controller", function($scope, config){
 	
 	this.changeBoard = function(_index){
 		console.log(_index);
-		this.active = this.config[_index];
+		this.active = this.board[_index];
 		console.log(this.active);
 	}
 

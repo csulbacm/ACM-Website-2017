@@ -87,12 +87,27 @@ img{
 /**	About **/
 #about-content{
 	padding: 20px;
+  height: 90%;
+  text-align: left;
+  margin-top: 10vh;
 }
 
+#about-content div
+{
+  padding: 0 20vw 0 20vw;
+  margin-bottom: 10vh;
+}
 #about-content p{
 	margin-left: 10px;
-	
+  color: white;
 }
+
+#about-content h3
+{
+  color: #caa801;
+}
+
+
 
 /* Board Page */
 #officers-core{
@@ -129,6 +144,8 @@ img{
 {
   text-align: center; 
   height: 95vh;
+  background-position-x: center;
+  background-position-y: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -137,4 +154,14 @@ img{
 {
   /*border-style: solid;*/
   border-bottom: solid #F8CD53;
+}
+
+#board-cover span:before 
+{
+  transform: rotate(90deg);
+  width: 75px;
+  height: 75px;
+  font-size: 2.5em;
+  color: #caa801;
+  display: block;
 }

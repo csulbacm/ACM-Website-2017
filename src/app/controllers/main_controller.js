@@ -21,10 +21,6 @@ acm_app.controller("main_controller", function($scope){
 		CONTACT: {
 			name: "Contact",
 			url: "contact"
-		},
-		BOARD: {
-			name: "Board",
-			url: "board"
 		}
 	};
 });
