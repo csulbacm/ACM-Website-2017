@@ -7,19 +7,19 @@
 		<div class="row">
 			<!-- Left Menu Bar -->
 			<div class="menu-list  col-md-5 col-sm-5 col-lg-5" >
-				<a class="col-md-6 col-sm-6 col-lg-6" ng-repeat="(key, value) in MAIN.tab1" ui-sref="{{value.url}}" >
+				<a class="col-md-6 col-sm-6 col-lg-6" ng-repeat="(key, value) in MAIN.tab1" ui-sref="{{value.state}}" href="{{MAIN.getNavRoute(value)}}" target="{{MAIN.checkLink(value)}}">
 					{{value.name}}
 				</a>
 			</div> <!-- Left Menu Bar -->
 
 			<!-- Home -->
 			<div class="menu-list col-md-2 col-sm-2 col-lg-2" >
-				<a ui-sref="{{MAIN.home.url}}">{{MAIN.home.name}}</a>
+				<a ui-sref="{{MAIN.home.state}}">{{MAIN.home.name}}</a>
 			</div><!-- Home -->
 
 			<!-- Right Menu Bar -->
 			<div class="menu-list  col-md-5 col-sm-5 col-lg-5" >
-				<a class="col-md-6 col-sm-6 col-lg-6" ng-repeat="(key, value) in MAIN.tab2" ui-sref="{{value.url}}">
+				<a class="col-md-6 col-sm-6 col-lg-6" ng-repeat="(key, value) in MAIN.tab2" ui-sref="{{value.state}}" href="{{MAIN.getNavRoute(value)}}" target="{{MAIN.checkLink(value)}}">
 					{{value.name}}
 				</a>
 			</div> <!-- Right Menu Bar -->
