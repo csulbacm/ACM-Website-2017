@@ -62,7 +62,8 @@ const config = {
 					},
 					"Company Liason": {
 						name: "Lynn Cherngchaosil",
-						email: "liason@csulb.acm.org"
+						email: "liason@csulb.acm.org",
+						img: '/img/board/2010-2011/lynn_cherngchaosil.JPG'
 					}, 
 					Historian: {
 						name: "Matt Sguerri",
