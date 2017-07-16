@@ -19,9 +19,15 @@ acm_app.controller("main_controller", function($scope){
 	}
 
 	this.tab2 = {
+		/*
 		CONTACT: {
 			name: "Contact",
 			state: "contact"
+		},
+		*/
+		HUB: {
+			name: "Activities Hub",
+			state: "hub"
 		},
 		BEACHHACK: {
 			name: "Beachhack",
