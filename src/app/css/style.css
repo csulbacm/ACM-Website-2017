@@ -11,6 +11,8 @@ body {
     overflow-x: hidden; 
 }
 
+
+/** Rotating Carousel **/
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
 
 .carousel {
@@ -52,6 +54,15 @@ img{
   left:50%;
   top:20px;
  margin-left:-200px;
+}
+
+/****************/
+
+/** HOME PAGE **/
+#information
+{
+  margin-top: 5vh;
+  text-align: center;
 }
 
 .menu-list{
@@ -110,16 +121,43 @@ img{
 
 
 /* Board Page */
-#officers-core{
+#officers-core
+{
   margin-top: 20px;
   padding: 0px 50px 0px 50px;
-  text-align: center;
 }
+
+#officers-others
+{
+  border-top: 1px solid #aaa;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
 .portrait{
   height: 500px;
   width: 500px;
   /*border-radius: 10%;*/
   margin: auto;
+  text-align: center;
+}
+
+.portrait > div:nth-of-type(1)
+{
+  height: 10;
+
+}
+
+.portrait > div:nth-of-type(2)
+{
+  height: 80%;
+}
+
+.portrait > div:nth-of-type(3)
+{
+  height: 10%;
+  text-align: center;
+  font-size: 20px;
 }
 
 .portrait-img
@@ -156,6 +194,9 @@ img{
 #board-years a
 {
   text-decoration: none;
+  margin: 20px;
+  color: white;
+
 }
 
 .board-active
