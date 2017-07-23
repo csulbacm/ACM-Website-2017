@@ -5,7 +5,7 @@
 	
 	<!-- Cover Image -->
 	<div id="board-cover" style="background-image: linear-gradient(rgba(94, 96, 48, 0.79), rgba(11, 12, 13, 0.53)), url({{AB.active.photo}});">
-		<div>
+		<div id="board-years">
 			<a  ng-class="{'board-active': AB.active.year == boards.year}" href="" ng-repeat="boards in AB.board" style="margin: 20px; color:white;" ng-click="AB.changeBoard($index)">
 			{{boards.year}}
 			</a>

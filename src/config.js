@@ -4,7 +4,7 @@
 
 const config = {
 
-	/** ABOUT PAGE **/
+	/** BOARD & ABOUT PAGE **/
 	ABOUT : {
 		TEXT : [{
 			header: "Our Goal",
@@ -17,7 +17,6 @@ const config = {
 			paragraphs: ["The Association for Computing Machinery is an active branch of the globe's largest computer science society. Here at the Long Beach chapter, we blieve in the principles of Gladwell's book, Outliers: The Story of Success. We commit our time and energy to producing, engaging in, and ultimately mastering the technologies of the computing age."]
 		}],
 	} ,
-	/****************/
 
 	BOARD: [
 		{
@@ -421,6 +420,14 @@ const config = {
 				}
 			}
 			
-		}]
+		}
+	],
+
+	/***************************/
+
+	HOME : {
+		background_img: "img/JumboImg.jpg",
+	}
+
 
 }
