@@ -4,7 +4,7 @@
 <div style="height: 90vh; ">
 	
 	<!-- Cover Image -->
-	<div id="board-cover" style="background-image: linear-gradient(rgba(94, 96, 48, 0.79), rgba(11, 12, 13, 0.53)), url({{AB.active.photo}});">
+	<div id="board-cover" class="animated fadeIn" style="background-image: linear-gradient(rgba(94, 96, 48, 0.79), rgba(11, 12, 13, 0.53)), url({{AB.active.photo}});">
 		<div id="board-years">
 			<a  ng-class="{'board-active': AB.active.year == boards.year}" href="" ng-repeat="boards in AB.board" ng-click="AB.changeBoard($index)">
 			{{boards.year}}

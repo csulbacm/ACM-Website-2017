@@ -197,6 +197,7 @@ img{
   margin: 20px;
   color: white;
 
+  transition: border-color 1s linear;
 }
 
 .board-active

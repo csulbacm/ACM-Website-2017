@@ -1,4 +1,4 @@
-var acm_app = angular.module('acm_app', ['ui.router']);
+var acm_app = angular.module('acm_app', ['ui.router', 'ngAnimate']);
 
 
 acm_app.config(['$stateProvider', '$urlRouterProvider', '$compileProvider', function($stateProvider, $urlRouterProvider,  $compileProvider ){
