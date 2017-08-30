@@ -332,7 +332,7 @@ const config = {
 		{
 			
 			year: '2016-2017',
-			active: true,
+			active: false,
 			photo: "../img/board/2016-2017/boards.JPG", 
 			officers: {
 				core: {
@@ -419,6 +419,56 @@ const config = {
 					}
 				}
 			}
+			
+		},
+		{
+			
+			year: '2017-2018',
+			active: true,
+			photo: "", 
+			officers: {
+					core: {
+						President: {
+							name: 'Victoria Hong',
+							email: 'chair@csulb.acm.org',
+							img: '/img/board/2017-2018/victoria_hong.JPG'
+						},
+						'Vice President':{
+							name: "Ryan Cole",
+							email: 'vicechair@csulb.acm.org',
+							img: '/img/board/2017-2018/ryan_cole.JPG'
+						},
+						Treasurer:{
+							name: 'Crystal Chun',
+							email: 'treasurer@csulb.acm.org',
+							img: '/img/board/2017-2018/crystal_chun.JPG'
+						},
+						Secretary:{
+							name: 'Meghan Stewart',
+							email: 'secretary@csulb.acm.org',
+						},
+						'AESB Representative':{
+							name: 'Eunice Chinchilla',
+							email: 'aesbrep@csulb.acm.org',
+							img: '/img/board/2017-2018/eunice_chinchilla.JPG'
+						},
+						'Event Coordinator': {
+							name: 'Josh Song',
+							email: 'events@csulb.acm.org'
+						}
+					},
+					others: {
+						'Web Master': {
+							name: 'Rich Cherngchaosil',
+							email: 'webmaster@csulb.acm.org',
+							img:'/img/board/2015-2016/rich_cherng.jpg'
+						},
+						'Web Master ': {
+							name: 'Kenny Do',
+							email: '',
+						}
+					}
+				}
 			
 		}
 	],
