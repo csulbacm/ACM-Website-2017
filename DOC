@@ -1,0 +1,15 @@
+
+Tutorial URL: https://coursetro.com/courses/12/Learn-Angular-4-from-Scratch
+
+Development Set up
+	Install AngularJS4
+		1. Install Node
+		2. Install npm package manager
+		3. Install angular/cli
+			> npm install -g @angular/cli
+		4. Start cli
+			> ng -v 
+	TypeScript for Sublime
+		- Clone git repo into sublime Package directory
+		> cd ~/AppData/Roaming/Sublime\ Text\ 2/Packages/
+		> git clone https://github.com/Microsoft/TypeScript-Sublime-Plugin.git 
