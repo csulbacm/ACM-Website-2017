@@ -93,6 +93,7 @@ img{
 	position: fixed;
 	text-align: center;
   z-index: 1000;
+  box-shadow: 3px 3px 2px grey
 }
 
 /**	About **/
