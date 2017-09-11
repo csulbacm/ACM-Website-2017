@@ -222,7 +222,7 @@ img{
 #address_content{
   font-size: 1em;
   font-style: italic;
-  position: absolute;
+  /*position: absolute;*/
   bottom: 2vh;
   width: 100vw;
 }
