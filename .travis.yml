@@ -1,6 +1,6 @@
 branches:
  only:
-  - Test
+  - deploy
 
 sudo: required
 dist: trusty
@@ -20,13 +20,22 @@ before_script:
  - export DISPLAY=:99.0
  - sh -e /etc/init.d/xvfb start
  ####
+ - sudo apt-get install lftp
+
+instal:
  - npm install -g bower
  - npm install -g grunt-cli
  - npm install
  - bower install
 
 script:
- grunt test # run karma and jamine testing
+ # - grunt test # run karma and jamine testing
+ - lftp -f "
+ - open $host
+ - user $user $password
+ - lcd .
+ - bye
+ - "
 
 notifications:
  email: false
