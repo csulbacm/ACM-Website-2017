@@ -35,7 +35,7 @@ script:
  - user $user $password
  - lcd .
  - bye
- - "
+ - " 
 
 notifications:
  email: false
