@@ -30,8 +30,10 @@ instal:
 
 script:
  # - grunt test # run karma and jamine testing
- - bash deploy.sh
+ - lftp -u $user,"$password" $host << EOF
  - ls
+ - bye
+ - EOF
 
 notifications:
  email: false
