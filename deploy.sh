@@ -9,10 +9,12 @@ USER=$user
 PASSWORD=$password
 
 #DISTANT DIRECTORY
-REMOTE_DIR='/'
+REMOTE_DIR='public_html'
 
 #LOCAL DIRECTORY
 LOCAL_DIR='.'
+ls
+pwd
 
 # RUNTIME!
 echo
@@ -20,7 +22,7 @@ echo "Starting download $REMOTE_DIR from $HOST to $LOCAL_DIR"
 date
 
 lftp -u "$USER","$PASSWORD" $HOST <<EOF
-lcd .
+cd $REMOTE_DIR
 pwd
 ls
 exit
