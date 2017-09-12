@@ -9,23 +9,22 @@ USER=$user
 PASSWORD=$password
 
 #DISTANT DIRECTORY
-REMOTE_DIR='public_html'
+REMOTE_DIR='public_html/'
 
 #LOCAL DIRECTORY
-LOCAL_DIR='.'
-ls
-pwd
+LOCAL_DIR='src/'
 
 # RUNTIME!
 echo
 echo "Starting download $REMOTE_DIR from $HOST to $LOCAL_DIR"
 date
 
-lftp -u "$USER","$PASSWORD" $HOST <<EOF
-cd $REMOTE_DIR
-pwd
-ls
-exit
+# Login and sync remote directory on ftp server with local contents
+lftp -u "$USER","$PASSWORD" $HOST <<EOF 
+
+mirror --reverse --delete --verbose $LOCAL_DIR $REMOTE_DIR
+
+bye
 EOF
 
 echo
