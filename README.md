@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/csulbacm/ACM-Website-AngularJS.svg?branch=master)](https://travis-ci.org/csulbacm/ACM-Website-AngularJS)
+[![Build Status](https://travis-ci.org/csulbacm/ACM-Website-2017.svg?branch=deploy)](https://travis-ci.org/csulbacm/ACM-Website-2017)
+
 # ACM-Website-AngularJS
 ACM website build with AngularJS for easier update content without database.
 
