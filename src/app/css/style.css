@@ -84,16 +84,16 @@ img{
 	width: 100vw;
 }
 
-#main-navbar {
-	background-color: #F2F2F2;
-	width: 100vw;
+.main-navbar {
+background-color: white ;
+/*	width: 100vw;
 	height: 5vh;
 	padding: 20px;
 	top: 0;
 	position: fixed;
 	text-align: center;
   z-index: 1000;
-  box-shadow: 3px 3px 2px grey
+  box-shadow: 3px 3px 2px grey*/
 }
 
 /**	About **/
@@ -218,6 +218,37 @@ img{
   display: block;
 }
 */
+
+.logo{
+  background-image: url("../../img/FACEBOOKLOGO.jpg");
+  background-position: 50%; /*Shift logo to center*/
+  background-repeat: no-repeat;
+}
+
+#nav-logo{
+
+}
+
+#nav-logo .logo{
+  height: 50px;
+  width: 50px;
+  background-size: auto 50px;
+  position: absolute;
+}
+
+#nav-logo a{
+  margin: 0 45px;
+  position: relative;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
 
 #address_content{
   font-size: 1em;
