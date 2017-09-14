@@ -6,7 +6,7 @@ acm_app.controller("about-board_controller", function($scope, config){
 
 	this.active = this.board[this.board.length - 1]
 
-	this.personHolder = "../img/board/person-placeholder.jpg"
+	this.personHolder = "../img/board/person-placeholder.png"
 	
 	this.changeBoard = function(_index){
 		console.log(_index);
