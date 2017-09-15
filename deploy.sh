@@ -9,7 +9,7 @@ USER=$user
 PASSWORD=$password
 
 #DISTANT DIRECTORY
-REMOTE_DIR='public_html/'
+REMOTE_DIR='/public_html'
 
 #LOCAL DIRECTORY
 LOCAL_DIR='src/'
@@ -30,4 +30,3 @@ EOF
 echo
 echo "Transfer finished"
 date
-
