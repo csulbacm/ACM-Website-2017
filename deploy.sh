@@ -12,7 +12,7 @@ PASSWORD=$password
 REMOTE_DIR='public_html/'
 
 #LOCAL DIRECTORY
-LOCAL_DIR='src/'
+LOCAL_DIR='src/*'
 
 # RUNTIME!
 echo
