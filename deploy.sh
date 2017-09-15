@@ -30,4 +30,3 @@ EOF
 echo
 echo "Transfer finished"
 date
-
