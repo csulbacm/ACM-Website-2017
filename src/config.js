@@ -446,6 +446,7 @@ const config = {
 						Secretary:{
 							name: 'Meghan Stewart',
 							email: 'secretary@csulb.acm.org',
+							img: '/img/board/2017-2018/meghan_stewart.JPG'
 						},
 						'AESB Representative':{
 							name: 'Eunice Chinchilla',
@@ -454,7 +455,8 @@ const config = {
 						},
 						'Event Coordinator': {
 							name: 'Josh Song',
-							email: 'events@csulb.acm.org'
+							email: 'events@csulb.acm.org',
+							img: '/img/board/2017-2018/josh_song.JPG'
 						}
 					},
 					others: {
