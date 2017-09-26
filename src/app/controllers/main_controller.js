@@ -51,8 +51,8 @@ acm_app.controller("main_controller", function($scope){
 			name: "Activities Hub",
 			state: "hub"
 		},
-		BEACHHACK: {
-			name: "Beachhack",
+		BEACHHACKS: {
+			name: "Beachhacks",
 			state: "null",
 			url: "http://beachhacks.com/"
 		}
