@@ -256,7 +256,9 @@ background-color: white ;
 #footer {
   width: 100vw;
   background-color: #262938;
-  min-height: 10vh;
+  /*min-height: 10vh;*/
+  position: fixed;
+  bottom: 0;
 }
 
 #footer-content{
@@ -280,23 +282,24 @@ background-color: white ;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 10px;
+  /*padding-top: 2px;*/
 }
 
 #footer-media > a {
-  height: 40px;
-  width: 40px;
-  background-size: 40px 40px;
-  background-repeat: none;
+  height: 20px;
+  width: 20px;
+  margin: 1px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
   display: inline;
   text-align: center;
 }
 
 
 #address_content{
-  padding: 10px;
+/*  padding: 5px;*/
   color: white;
-  font-size: 1em;
+  font-size: .5em;
   font-style: italic;
   text-align: center;
 }
