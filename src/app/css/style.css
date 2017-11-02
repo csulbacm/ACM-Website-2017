@@ -180,6 +180,8 @@ background-color: white ;
   width: auto;
   display: block;
   margin: auto;
+  padding: 10px;
+  background: cornsilk;
 }
 
 #board-cover
