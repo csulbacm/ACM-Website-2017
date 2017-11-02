@@ -22,7 +22,7 @@ const config = {
 		{
 			year: "2010-2011",
 			active: false,
-			photo: '/img/board/2010-2011/photo.jpg',
+			photo: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2010-2011/photo.jpg',
 			officers: {
 				core: {
 					President: {
@@ -62,7 +62,7 @@ const config = {
 					"Company Liason": {
 						name: "Lynn Cherngchaosil",
 						email: "liason@csulb.acm.org",
-						img: '/img/board/2010-2011/lynn_cherngchaosil.JPG'
+						img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2010-2011/lynn_cherngchaosil.JPG'
 					}, 
 					Historian: {
 						name: "Matt Sguerri",
@@ -94,7 +94,7 @@ const config = {
 		{
 			year: "2011-2012",
 			active: false,
-			photo: '/img/board/2011-2012/photo.jpg',
+			photo: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2011-2012/photo.jpg',
 			officers: {
 				core:{
 					President: {
@@ -153,7 +153,7 @@ const config = {
 		{
 			year: '2012-2013',
 			active: false,
-			photo: '/img/board/2012-2013/photo.jpg',
+			photo: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2012-2013/photo.jpg',
 			officers:{
 				core:{
 					President: {
@@ -304,12 +304,12 @@ const config = {
 					'Vice President': {
 						name: 'Aleks Kivuls',
 						email: 'vicechair@csulb.acm.org',
-						img: '/img/board/2016-2017/aleks_kivuls.JPG'
+						img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2016-2017/aleks_kivuls.JPG'
 					},
 					Treasurer: {
 						name: "Pongsathorn (Rich) Cherngchaosil",
 						email: "treasurer@csulb.acm.org",
-						img: "/img/board/2015-2016/rich_cherng.jpg"
+						img: "https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2015-2016/rich_cherng.jpg"
 					},
 					Secretary: {
 						name: "Pongsakorn (Leaf) Cherngchaosil",
@@ -333,13 +333,13 @@ const config = {
 			
 			year: '2016-2017',
 			active: false,
-			photo: "../img/board/2016-2017/boards.JPG", 
+			photo: "..https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2016-2017/boards.JPG", 
 			officers: {
 				core: {
 					President: {
 						name: 'Aleks Kivuls',
 						email: 'chair@csulb.acm.org',
-						img: '/img/board/2016-2017/aleks_kivuls.JPG'
+						img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2016-2017/aleks_kivuls.JPG'
 					},
 					'Vice President (1)':{
 						name: "Cherie Woo",
@@ -353,17 +353,17 @@ const config = {
 					Treasurer:{
 						name: 'Cesar Montelongo',
 						email: 'treasurer@csulb.acm.org',
-						img: '/img/board/2016-2017/cesar_montelongo.JPG'
+						img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2016-2017/cesar_montelongo.JPG'
 					},
 					Secretary:{
 						name: 'Phuong Huynh',
 						email: 'secretary@csulb.acm.org',
-						img: '/img/board/2016-2017/phuong_hyunh.JPG'
+						img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2016-2017/phuong_hyunh.JPG'
 					},
 					'AESB Representative':{
 						name: 'Anhkhoi Vu',
 						email: 'aesbrep@csulb.acm.org',
-						img: '/img/board/2016-2017/anhkhoi_vu.JPG'
+						img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2016-2017/anhkhoi_vu.JPG'
 					},
 					'Event Coordinator': {
 						name: 'Wesley Huang',
@@ -372,7 +372,7 @@ const config = {
 					'Beachhacks Director': {
 						name: 'Michael Botsko',
 						email: '',
-						img: '/img/board/2016-2017/michael_botsko.jpg'
+						img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2016-2017/michael_botsko.jpg'
 					}
 				},
 				others: {
@@ -385,7 +385,7 @@ const config = {
 					'Web Master': {
 						name: 'Rich Cherngchaosil',
 						email: 'webmaster@csulb.acm.org',
-						img:'/img/board/2015-2016/rich_cherng.jpg'
+						img:'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2015-2016/rich_cherng.jpg'
 					},
 					'Industry Chair': {
 						name: 'Varderes Barsegyan'
@@ -431,39 +431,40 @@ const config = {
 						President: {
 							name: 'Victoria Hong',
 							email: 'chair@csulb.acm.org',
-							img: '/img/board/2017-2018/victoria_hong.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/victoria_hong.JPG'
 						},
 						'Vice President':{
 							name: "Ryan Cole",
 							email: 'vicechair@csulb.acm.org',
-							img: '/img/board/2017-2018/ryan_cole.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/ryan_cole.JPG'
 						},
 						Treasurer:{
 							name: 'Crystal Chun',
 							email: 'treasurer@csulb.acm.org',
-							img: '/img/board/2017-2018/crystal_chun.JPG'
+							// img: '/img/board/2017-2018/crystal_chun.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2017-2018/crystal_chun.JPG'
 						},
 						Secretary:{
 							name: 'Meghan Stewart',
 							email: 'secretary@csulb.acm.org',
-							img: '/img/board/2017-2018/meghan_stewart.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/meghan_stewart.JPG'
 						},
 						'AESB Representative':{
 							name: 'Eunice Chinchilla',
 							email: 'aesbrep@csulb.acm.org',
-							img: '/img/board/2017-2018/eunice_chinchilla.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/eunice_chinchilla.JPG'
 						},
 						'Event Coordinator': {
 							name: 'Josh Song',
 							email: 'events@csulb.acm.org',
-							img: '/img/board/2017-2018/josh_song.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/josh_song.JPG'
 						}
 					},
 					others: {
 						'Web Master': {
 							name: 'Rich Cherngchaosil',
 							email: 'webmaster@csulb.acm.org',
-							img:'/img/board/2015-2016/rich_cherng.jpg'
+							img:'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2015-2016/rich_cherng.jpg'
 						},
 						'Web Master ': {
 							name: 'Kenny Do',
@@ -478,7 +479,7 @@ const config = {
 	/***************************/
 
 	HOME : {
-		background_img: "img/JumboImg.jpg",
+		background_img: "https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/JumboImg.jpg",
 	}
 
 

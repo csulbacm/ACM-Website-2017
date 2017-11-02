@@ -223,7 +223,7 @@ background-color: white ;
 */
 
 .logo{
-  background-image: url("../../img/FACEBOOKLOGO.jpg");
+  background-image: url("https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/FACEBOOKLOGO.jpg");
   background-position: 50%; /*Shift logo to center*/
   background-repeat: no-repeat;
 }

@@ -3,7 +3,7 @@ acm_app.controller("board_controller", function($scope, config){
 
 	this.active = this.config[this.config.length - 1]
 
-	this.personHolder = "../img/board/person-placeholder.jpg"
+	this.personHolder = "https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/person-placeholder.jpg"
 	
 	this.changeBoard = function(_index){
 		console.log(_index);
