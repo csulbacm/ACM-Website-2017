@@ -333,7 +333,7 @@ const config = {
 			
 			year: '2016-2017',
 			active: false,
-			photo: "..https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2016-2017/boards.JPG", 
+			photo: "https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2016-2017/boards.JPG", 
 			officers: {
 				core: {
 					President: {
