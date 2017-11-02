@@ -42,11 +42,6 @@ acm_app.controller("main_controller", function($scope){
 			name: "About",
 			state: "about-board"
 		},
-		EVENT: {
-			name: "Event",
-			state: "null",
-			url: "https://www.facebook.com/csulbacm/"
-		},
 		HUB: {
 			name: "Activities Hub",
 			state: "hub"

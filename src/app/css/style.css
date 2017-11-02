@@ -37,9 +37,6 @@ body {
     -o-background-size: cover;
 }
 
-footer {
-    margin: 50px 0;
-}
 
 #slides_control > div{
   height: 200px;
@@ -255,10 +252,54 @@ background-color: white ;
   }
 }
 
-#address_content{
-  font-size: 1em;
-  font-style: italic;
-  /*position: absolute;*/
-  bottom: 2vh;
+
+#footer {
   width: 100vw;
+  background-color: #262938;
+  /*min-height: 10vh;*/
+  position: fixed;
+  bottom: 0;
+}
+
+#footer-content{
+  max-width: 40vw;
+  margin: auto;
+}
+
+#footer-media > #facebook{
+  background-image: url(/img/icon/facebook_icon.png); 
+}
+
+#footer-media > #github{
+  background-image: url(/img/icon/github_icon.svg); 
+}
+
+#footer-media > #beachhacks{
+  background-image: url(/img/icon/beachhacks_icon.png); 
+}
+
+#footer-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*padding-top: 2px;*/
+}
+
+#footer-media > a {
+  height: 20px;
+  width: 20px;
+  margin: 1px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  display: inline;
+  text-align: center;
+}
+
+
+#address_content{
+/*  padding: 5px;*/
+  color: white;
+  font-size: .5em;
+  font-style: italic;
+  text-align: center;
 }
