@@ -12,7 +12,7 @@ addons:
       - google-chrome-stable
 language: node_js
 node_js:
- - "6"
+ - "9"
 
 before_script:
  # For using headless chrome with travis
