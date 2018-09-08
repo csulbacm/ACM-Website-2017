@@ -24,11 +24,11 @@ before_script:
  #- npm install
  - npm install -g bower
  # - npm install -g grunt-cli
- - travis_wait 30 bower install
+ - bower install
 
 script:
  # - grunt test # run karma and jamine testing
- - bash deploy.sh
+ - travis_wait 30 bash deploy.sh
 
 notifications:
  email: false
