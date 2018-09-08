@@ -24,7 +24,7 @@ before_script:
  #- npm install
  - npm install -g bower
  # - npm install -g grunt-cli
- - bower install
+ - travis_wait 30 bower install
 
 script:
  # - grunt test # run karma and jamine testing
