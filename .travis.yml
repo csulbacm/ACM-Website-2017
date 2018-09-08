@@ -12,9 +12,10 @@ addons:
       - google-chrome-stable
 language: node_js
 node_js:
- - "6"
+ - "9"
 
 before_script:
+  travis_wait 30
  # For using headless chrome with travis
  - export CHROME_BIN=chromium-browser
  - export DISPLAY=:99.0
