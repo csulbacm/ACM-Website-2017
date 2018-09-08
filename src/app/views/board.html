@@ -1,6 +1,6 @@
 
 <div style="height: 90vh; ">
-	
+
 	<div id="board-cover" style="background-image: linear-gradient(rgba(94, 96, 48, 0.79), rgba(11, 12, 13, 0.53)), url({{BOARD.active.photo}});">
 		<div>
 			<a  ng-class="{'board-active': BOARD.active.year == boards.year}" href="" ng-repeat="boards in BOARD.config" style="margin: 20px; color:white;" ng-click="BOARD.changeBoard($index)">

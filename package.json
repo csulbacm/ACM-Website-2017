@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csulbacm/ACM-Website-AngularJS.git"
+    "url": "git+https://github.com/csulbacm/ACM-Website-2017.git"
   },
   "author": "Pongsathorn Cherngchaosil",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/csulbacm/ACM-Website-AngularJS/issues"
+    "url": "https://github.com/csulbacm/ACM-Website-2017/issues"
   },
-  "homepage": "https://github.com/csulbacm/ACM-Website-AngularJS#readme"
+  "homepage": "https://github.com/csulbacm/ACM-Website-2017#readme"
 }

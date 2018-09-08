@@ -436,7 +436,7 @@ const config = {
 						'Vice President':{
 							name: "Ryan Cole",
 							email: 'vicechair@csulb.acm.org',
-							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/victoria_hong.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/ryan_cole.JPG'
 						},
 						Treasurer:{
 							name: 'Crystal Chun',
