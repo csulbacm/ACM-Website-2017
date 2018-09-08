@@ -63,7 +63,7 @@ const config = {
 						name: "Lynn Cherngchaosil",
 						email: "liason@csulb.acm.org",
 						img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2010-2011/lynn_cherngchaosil.JPG'
-					}, 
+					},
 					Historian: {
 						name: "Matt Sguerri",
 						email: "historian@csulb.acm.org"
@@ -83,7 +83,7 @@ const config = {
 					Webmaster: {
 						name: "Alex Chavez",
 						email: "webmaster@csulb.acm.org"
-					}, 
+					},
 					"Office Technician": {
 						name: "Frank Lima",
 						email: "tech@csulb.acm.org"
@@ -126,7 +126,7 @@ const config = {
 					"Publicity and Recruitment Chair": {
 						name: "Salvador Llamas",
 						email: "publicity@csulb.acm.org"
-					}, 
+					},
 					"Market Manager": {
 						name: "James Coolidge",
 						email: "vendor@csulb.acm.org"
@@ -134,15 +134,15 @@ const config = {
 					"Historian": {
 						name: "Orion Sakorn",
 						email: "historian@csulb.acm.org"
-					}, 
+					},
 					"Membership Chair": {
 						name: "Donald Herman",
 						email: "membership@csulb.acm.org"
-					}, 
+					},
 					"Web Master": {
 						name: "Ian Goegebuer",
 						email: "webmaster@csulb.acm.org"
-					}, 
+					},
 					"Office Techinician": {
 						name: "Shane Satterfield",
 						email: "tech@csulb.acm.org"
@@ -175,7 +175,7 @@ const config = {
 					"Events Coordinator": {
 						name: "Diana Ignacio",
 						email: "events@csulb.acm.org"
-					}, 
+					},
 					"AESB Representative": {
 						name: "Victoria Hatfield",
 						email: "aesb@csulb.acm.org"
@@ -330,10 +330,10 @@ const config = {
 		},
 
 		{
-			
+
 			year: '2016-2017',
 			active: false,
-			photo: "https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2016-2017/boards.JPG", 
+			photo: "https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2016-2017/boards.JPG",
 			officers: {
 				core: {
 					President: {
@@ -389,7 +389,7 @@ const config = {
 					},
 					'Industry Chair': {
 						name: 'Varderes Barsegyan'
-					}, 
+					},
 					'Publicity & Recruitment Chair': {
 						name: 'Chris Meyer',
 						email: 'publicity@csulb.acm.org'
@@ -419,13 +419,13 @@ const config = {
 					}
 				}
 			}
-			
+
 		},
 		{
-			
+
 			year: '2017-2018',
 			active: true,
-			photo: "", 
+			photo: "",
 			officers: {
 					core: {
 						President: {
@@ -436,7 +436,7 @@ const config = {
 						'Vice President':{
 							name: "Ryan Cole",
 							email: 'vicechair@csulb.acm.org',
-							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/ryan_cole.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/victoria_hong.JPG'
 						},
 						Treasurer:{
 							name: 'Crystal Chun',
@@ -472,7 +472,7 @@ const config = {
 						}
 					}
 				}
-			
+
 		}
 	],
 
