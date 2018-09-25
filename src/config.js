@@ -489,12 +489,12 @@ const config = {
 						'Vice President':{
 							name: "Matt Chu",
 							email: 'vicechair@csulb.acm.org',
-							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2018-2019/matt_chu.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2018-2019/matt_chu.jpg'
 						},
 						Treasurer:{
 							name: 'David Taitingfong',
 							email: 'treasurer@csulb.acm.org',
-							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2018-2019/david_taitingfong.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2018-2019/david_taitingfong.jpg'
 						},
 						Secretary:{
 							name: 'Kenny Do',
@@ -504,7 +504,7 @@ const config = {
 						'AESB Representative':{
 							name: 'Alfredo Vargas',
 							email: 'aesbrep@csulb.acm.org',
-							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2018-2019/alfredo_vargas.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2018-2019/alfredo_vargas.jpg'
 						},
 						'Event Coordinator': {
 							name: 'Elizabeth Him',
