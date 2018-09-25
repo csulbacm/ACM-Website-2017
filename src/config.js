@@ -436,7 +436,7 @@ const config = {
 						'Vice President':{
 							name: "Ryan Cole",
 							email: 'vicechair@csulb.acm.org',
-							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/victoria_hong.JPG'
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/ryan_cole.JPG'
 						},
 						Treasurer:{
 							name: 'Crystal Chun',
@@ -469,6 +469,54 @@ const config = {
 						'Web Master ': {
 							name: 'Kenny Do',
 							email: '',
+						}
+					}
+				}
+
+		},
+		{
+
+			year: '2018-2019',
+			active: true,
+			photo: "",
+			officers: {
+					core: {
+						President: {
+							name: 'Ryan Cole',
+							email: 'chair@csulb.acm.org',
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/ryan_cole.JPG'
+						},
+						'Vice President':{
+							name: "Matt Chu",
+							email: 'vicechair@csulb.acm.org',
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2018-2019/matt_chu.JPG'
+						},
+						Treasurer:{
+							name: 'David Taitingfong',
+							email: 'treasurer@csulb.acm.org',
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src/img/board/2018-2019/david_taitingfong.JPG'
+						},
+						Secretary:{
+							name: 'Kenny Do',
+							email: 'secretary@csulb.acm.org',
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/meghan_stewart.JPG'
+						},
+						'AESB Representative':{
+							name: 'Alfredo Vargas',
+							email: 'aesbrep@csulb.acm.org',
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2018-2019/alfredo_vargas.JPG'
+						},
+						'Event Coordinator': {
+							name: 'Elizabeth Him',
+							email: 'events@csulb.acm.org',
+							img: 'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2017-2018/josh_song.JPG'
+						}
+					},
+					others: {
+						'Web Master': {
+							name: 'Daniel Ring',
+							email: 'webmaster@csulb.acm.org',
+							img:'https://raw.githubusercontent.com/csulbacm/ACM-Website-2017/master/src//img/board/2015-2016/rich_cherng.jpg'
 						}
 					}
 				}
